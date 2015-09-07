@@ -227,7 +227,6 @@ End Swipe */
 .colored-stripe-title {
 	width: 100%;
 	text-align: center;
-	text-transform: uppercase;
 	font-size: 3em;
 	color: #505050;
 	margin-top: 100px;
@@ -305,13 +304,13 @@ End Swipe */
   #cd-timeline::before {
    left: 50%;
    margin-left: -2px;
-   height: 75%;
+   height: 80%;
   }
 }
 
 @media only screen and (max-width:968px){
 	#cd-timeline::before {
-		height:73%;
+		height:80%;
 	}
 }
 
@@ -945,7 +944,7 @@ End Swipe */
 	font-weight: 400;
 	color:#999999;
 	padding:10px 0 30px 10px;
-	border-top:1px solid #acacac;
+	border-top:1px solid rgba(0,0,0, 0.15);
 }
 
 .footer-text:before {
