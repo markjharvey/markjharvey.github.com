@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en-US"><![endif]-->
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="author" content="Nikolay Nedkov Kolev" />
+	<meta
+	  name="viewport"
+	  content="
+	    width=device-width,
+	    initial-scale=1,
+	    minimum-scale=1,
+	    maximum-scale=1
+	  "
+	/>
+	
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Link to GoogleFonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700&amp;subset=latin' rel='stylesheet' type='text/css'>
+	<!-- End Link to GoogleFonts -->
+	
+	<!-- General CSS -->
+	<link href="resources/css/reset-min.css" type="text/css" rel="stylesheet">
+	<link href="resources/css/unsemantic-grid-responsive.css" type="text/css" rel="stylesheet">
+	<!-- End General CSS -->
+	
+	<!-- Components.css -->
+	<link href="resources/css/components.css" type="text/css" rel="stylesheet">
+	<!-- End Components.css -->
+	
+	<!-- Style -->
+	<link href="resources/css/style.css" type="text/css" rel="stylesheet">
+	<!-- End Style -->
+	
+	<link rel="stylesheet" href="resources/css/animate-custom.css">
+	
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<!-- End jQuery -->
+	
+	<!-- Scroll to JS -->
+	<script type="text/javascript" src="resources/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<!-- End Scroll to JS -->
+	
+	<!-- Placeholders JS for IE -->
+	<script src="resources/js/jquery.placeholder.min.js"></script>
+	<!-- End Placeholders JS for IE -->
+	
+	<!-- Swipe -->
+	<script src='resources/js/swipe.js'></script>
+	<!-- End Swipe -->
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('#menu-button').toggle(function() {
+			$('#menu').animate({
+				marginTop: '+=10',
+				height: '100%',
+				opacity: 1
+			}, 300, function() {
+				// Animation complete.
+			});
+		}, function() {
+			$('#menu').animate({
+				marginTop: '-=10',
+				opacity: 0,
+				height: '0px'
+			}, 300, function() {
+				// Animation complete.
+			});
+		});
+		
+	});
+	</script>
+</head>
+
+<body>
+
+<section>
+<div class="main">
+<div id="top-wrapper">
+	<div class="grid-container">
+		<header class="grid-50 mobile-grid-50">
+			<p id="logo" class="animated fadeInDown">Mark Justin Harvey</p>
+		</header>
+
+		<nav class="grid-50 mobile-grid-50">
+			<ul id="menu">
+				<li><a href="mailto:mark@markjustinharvey.com" class="emailbutton belizehole" target="_blank">Email me</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id='mySwipe' style='max-width:960px; margin:0 auto;'>
+	<!-- Swipe Wrap -->
+	<div class='swipe-wrap'>
+			<div class="grid-container">
+				<!-- Presentation Container -->
+				<div class="grid-80">
+					<div class="presentation">
+						<h2 class="presentation-title animated fadeInDown">Hi, I'm Mark Justin Harvey</h2>
+						<p class="presentation-text animated fadeInDown">I design digital goods and products that people use. I also <a href="http://www.medium.com/@markjharvey" target="_blank">write</a> about my craft, take a picture <a href="http://markjharvey.vsco.co" target="_blank">here</a> and <a href="http://www.flickr.com/photos/mrbokeh" target="_blank">there</a> and <a href="http://www.twitter.com/markjharvey" target="_blank">tweet</a> nonsense from time to time while sipping espresso from an IV. Cats.</p>
+					</div>
+				</div>
+				<!-- End Presentation Container -->
+			</div>
+	</div>
+	<!-- End Swipe Wrap -->
+</div>
+</div>
+
+<!-- Start Timeline -->
+<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div id="born" class="cd-timeline-img bounce-in">
+				
+			</div> <!-- cd-timeline-img -->
+			<div class="cd-timeline-content">
+				<span class="cd-date">The 1980s</span>
+				<h2>And so it began</h2>
+				<p>It all started in Toronto. Life was grand! Survivor had the #1 single, real estate was affordable and you could smoke on airplanes.</p>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div id="graduated" class="cd-timeline-img bounce-in">
+				
+			</div> <!-- cd-timeline-img -->
+			<div class="cd-timeline-content">
+				<span class="cd-date">2006</span>
+				<h2>Graduated</h2>
+				<p>It was the best of times, it was the worst of times. I didn't study who said that because I was an art major.</p>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div id="travel" class="cd-timeline-img bounce-in">
+				
+			</div> <!-- cd-timeline-img -->
+			<div class="cd-timeline-content bounce-in">
+				<span class="cd-date">2007 - 2012</span>
+				<h2>Travel time</h2>
+				<p>Shortly after graduating I decided to do a little traveling. I worked remotely and even locally with clients while on my journey.</p>
+				<a href="https://www.flickr.com/photos/mrbokeh/collections/72157623585778079/" class="cd-read-more">See my travel photos</a>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div id="work" class="cd-timeline-img bounce-in">
+				<!-- <img src="resources/img/mobile_icon.png" alt="Work"> -->
+			</div> <!-- cd-timeline-img -->
+			<div class="cd-timeline-content bounce-in">
+				<span class="cd-date">2012 - present</span>
+				<h2>Work time</h2>
+				<p>Between my trips back home to Toronto and the last few years I have worked in many different environments from agencies, financial corporations to startups. <a href="mailto:mark@markjustinharvey.com">Drop me a line</a> and I'd be happy to tell you all about it.</p>
+				<a href="mailto:mark@markjustinharvey.com" class="cd-read-more">Email me</a>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section>
+<!-- End Timeline -->
+
+<!-- Works -->
+<div id="case-study">
+	
+	<!-- Works Section Title -->
+	<div class="case-study">
+		<div class="grid-100">
+			<p class="colored-stripe-title">Sample Case Study</p>
+		</div>
+	</div>
+	<!-- End Works Section Title -->
+	
+	<div class="grid-container">
+		<!-- Work 1 -->
+		<div class="grid-100 mobile-grid-100 work-container">
+			<!-- Work Photo -->
+			<div class="grid-50">
+				<div class="image-container">
+					<img src="resources/img/imdb-hero.jpg" alt="" class="image"/>	
+				</div>
+			</div>
+			<!-- End Work Photo -->
+			
+			<!-- Work Paragraphs -->
+			<div class="grid -45 push-5">
+				<h2 class="cs-title">Foreword</h2>
+				<p class="cs-text">Before you shake your head at yet again another "popular website redesign", let me just say I agree and am a supporter of <a href="https://medium.com/@gbks/interfaces-in-need-fa21105102c6">designing for those in need</a> but this was an assignment given to me as part of an application. It's a good representation of my design process. It lays out my solution, process, approach and design thinking to solving problems.</p>
+
+			</div>
+			<!-- End Work Paragraphs -->
+		
+			<div class="grid-100">
+				<h2 class="cs-title">Process</h2>
+				<p class="cs-text">The first step is always research. I wrote down what the current IMDB site's strengths were and areas that could be improved. The current site is in major need of a refresh and it’s mobile and desktop experience are not in sync. They seem to be putting more development into their mobile site and app while leaving the desktop experience lackluster and outdated. There is no responsive element to it, on mobile the site loads a different stylesheet upon a media query however this does not happen on tablets, only mobile phones. I found the top 3 reasons people come to this site were:
+
+					<ul class="cs-text"><li>To read and find out information about a movie</li>
+										<li>To watch a trailer</li>
+										<li>To see what other people have said about a movie</li>
+					</ul>
+
+<span class="cs-text">After a brief content inventory and evaluation I decided to tackle this project keeping these things in mind:<br/><br/></span>
+
+					<ul class="cs-text"><li>sync the mobile and desktop experience</li>
+										<li>highlight the main information about a movie</li>
+										<li>allow the desktop site to have some responsiveness to it</li>
+					</ul>
+				</p>
+				<h2 class="cs-title">Wireframes</h2>
+				<p class="cs-text">I start my wireframes on paper and move onto the computer after I have established a good overview of the project’s scope.</p>
+			</div>
+
+			<div class="grid-100">
+				<div class="image-container">
+					<img src="resources/img/imdb-wireframe.jpg" alt="" class="image"/>	
+				</div>
+			</div>
+
+		<div class="grid-100">
+				<h2 class="cs-title">Design</h2>
+				<p class="cs-text">When it came to the design I used colour as a way to tie in sections with their context. People would feel less anxiety when browsing on mobile as the page seemed to scroll infinitely with no context of where it ends. Having the accordion menu, bottom docked, gives context as to what is next. This is my solution for the mobile experience. I tied it into the desktop for a congruous experience while also adding some life and emotion to it.</p>
+
+		</div>
+		
+			<div class="grid-100">
+				<div class="image-container">
+					<img src="resources/img/visuals.jpg" alt="" class="image"/>	
+				</div>
+			</div>
+		<!-- End Work 1 -->
+		<div class="grid-100">
+				<h2 class="cs-title">Conclusion</h2>
+				<p class="cs-text">The IMDb site gets the job done but could use a lot of polish and ux affordance. The header could use the most attention, there are too many links and options in it. The site can refocus it’s hiearchy on a few key aspects, as I have outlined based on my research. The amount of information regarding a film is overbearing, it needs careful consideration and data analysis to decide what to have upon load and what to have as a child page. The mobile first approach helps bring to light the most relevant information.
+				Even though the task was not to redesign the entire site, I found it hard to ignore the larger context.</p>
+				<h2 class="cs-title">What happened to the Ads?</h2>
+				<p class="cs-text">People visiting this site should not be subject to banner ads which do not work and only provide visual noise and an overall bad experience. IMDb is owned by Amazon which reported revenue at US$74,452 million in 2013 and US$61,093 million in 2012. I see very little reason they cannot fund this. Another solution could be to have Hollywood fund it. A microtax on movie production, say 0.01% would do it. There are lots of solutions to avoid banner advertising. Perhaps that could be the next product I work on.</p>
+		</div>
+			<div class="grid-50 push-3">
+				<a href="https://dl.dropboxusercontent.com/u/34591430/markjharvey_casestudy_IMDB.pdf" target="_blank" class="button orange">View Full Pixel PDF on Dropbox</a>
+			</div>
+			<div class="grid-50 push-3">
+				<a href="mailto:mark@markjustinharvey.com" class="emailbutton peterriver">Email Me</a>
+			</div>
+	</div>
+	<p class="footer-text"> 2014 Mark J Harvey. All rights reserved. All things considered.</p>
+</div>
+<!-- End Works -->
+
+</section>
+    
+<footer>
+</footer>
+</body>
+</html>
